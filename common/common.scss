@@ -73,16 +73,16 @@ img.emoji {
   should always appear boldly on the background are separate from the
   font color we use).
   */
-  --bg: #ffffff;
-  --fg-high-contrast: #000000;
-  --fg-medium-contrast: #333333;
-  --fg-low-contrast: #5d5d5d; /* previously was 939393 */
-  --bold-bg: #222222;
-  --bold-fg: #ffffff;
-  --modal-bg: #ffffff;
-  --modal-fg: #333333;
-  --surface-high-contrast: #d6d6d6;
-  --surface-low-contrast: #f5f5f5;
+  --bg: #fafafa;
+  --fg-high-contrast: #fafafa;
+  --fg-medium-contrast: #fafafa;
+  --fg-low-contrast: #fafafa; /* previously was 939393 */
+  --bold-bg: #fafafa;
+  --bold-fg: #fafafa;
+  --modal-bg: #fafafa;
+  --modal-fg: #fafafa;
+  --surface-high-contrast: #fafafa;
+  --surface-low-contrast: #fafafa;
 }
 
 $primary: var(--fg-high-contrast);

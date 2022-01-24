@@ -97,8 +97,8 @@ $tertiary-low: var(--community-blue);
 
 @media (prefers-color-scheme: light) {
     :root {
-      --primary: #1f1f1f;
-    //   --secondary: #1f1f1f;
+      --primary: #000;
+      --secondary: #1f1f1f;
     }
   }
 

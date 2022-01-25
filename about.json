@@ -1,5 +1,5 @@
 {
-  "name": "Dark Corporate",
+  "name": "MC Gov",
   "component": false,
   "license_url": null,
   "about_url": null,
@@ -10,17 +10,17 @@
   "assets": {
   },
   "color_schemes": {
-    "Dark": {
-      "primary": "1c1c1c",
-      "secondary": "f9fcff",
-      "tertiary": "3877e5",
-      "quaternary": "7e8b93",
-      "header_background": "f9fcff",
-      "header_primary": "122b43",
-      "highlight": "e6cb37",
-      "danger": "d05454",
-      "success": "71bd9f",
-      "love": "c16ad7"
+    "Main": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "0088cc",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
     }
   },
   "modifiers": {

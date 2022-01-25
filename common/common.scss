@@ -73,16 +73,16 @@ img.emoji {
   should always appear boldly on the background are separate from the
   font color we use).
   */
-  --bg: #fafafa;
-  --fg-high-contrast: #fafafa;
-  --fg-medium-contrast: #fafafa;
-  --fg-low-contrast: #fafafa; /* previously was 939393 */
-  --bold-bg: #fafafa;
-  --bold-fg: #fafafa;
-  --modal-bg: #fafafa;
-  --modal-fg: #fafafa;
-  --surface-high-contrast: #fafafa;
-  --surface-low-contrast: #fafafa;
+  --bg: #ffffff;
+  --fg-high-contrast: #000000;
+  --fg-medium-contrast: #333333;
+  --fg-low-contrast: #5d5d5d; /* previously was 939393 */
+  --bold-bg: #222222;
+  --bold-fg: #ffffff;
+  --modal-bg: #ffffff;
+  --modal-fg: #333333;
+  --surface-high-contrast: #d6d6d6;
+  --surface-low-contrast: #f5f5f5;
 }
 
 $primary: var(--fg-high-contrast);
@@ -104,27 +104,27 @@ $tertiary-low: var(--community-blue);
 
 // just override to make it dark by default
 :root {
-  --bg: #fafafa;
-  --fg-high-contrast: #fafafa;
+  --bg: #0a111e;
+  --fg-high-contrast: #ffffff;
   --fg-medium-contrast: rgba(255,255,255,.6);
-  --fg-low-contrast: #fafafa;
-  --bold-bg: #fafafa;
-  --bold-fg: #fafafa;
-  --modal-bg: #fafafa;
-  --modal-fg: #fafafa;
+  --fg-low-contrast: #9b9b9b;
+  --bold-bg: #3368E4;
+  --bold-fg: #ffffff;
+  --modal-bg: #0a111e;
+  --modal-fg: #ffffff;
   --surface-high-contrast: rgba(84,100,128,0.2);
-  --surface-low-contrast: #fafafa;
+  --surface-low-contrast: #171D29;
   --primary: #fff;
-  --primary-high: #fafafa;
-  --primary-medium: #fafafa;
+  --primary-high: #546480;
+  --primary-medium: #546480;
   --primary-low: rgba(55,110,248,0.5);
-  --secondary: #fafafa;
-  --header_background: #fafafa;
-  --tertiary: #fafafa;
+  --secondary: #080F1A;
+  --header_background: #080F1A;
+  --tertiary: #3368E4;
   --tertiary-low: rgba(255,255,255,.05);
   --highlight-medium: rgba(55,110,248,.2);
-  --primary-high-or-secondary-low: #fafafa;
-  --header_primary: #fafafa;
+  --primary-high-or-secondary-low: #546480;
+  --header_primary: #fff;
   --blend-primary-secondary-5: rgba(55,110,248,0.05);
 }
 
